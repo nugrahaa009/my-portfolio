@@ -52,6 +52,49 @@ const HeroText = () => {
           </motion.p>
         </div>
       </div>
+      {/* Mobile View */}
+      <div className="flex- flex-col space-y-6 md:hidden">
+        <motion.p
+          className="text-4xl font-medium"
+          variants={variants}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 1 }}
+        >
+          Hi,I'm Aditya
+        </motion.p>
+        <div>
+          <motion.p
+            className="text-5xl font-black text-neutral-300"
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 1.2 }}
+          >
+            Building
+          </motion.p>
+          <motion.div
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 1.5 }}
+          >
+            <FlipWords
+              words={words}
+              className="font-bold text-white text-7xl"
+            />
+          </motion.div>
+          <motion.p
+            className="text-4xl font-black text-neutral300"
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 1.8 }}
+          >
+            Web Applications
+          </motion.p>
+        </div>
+      </div>
     </div>
   )
 }
