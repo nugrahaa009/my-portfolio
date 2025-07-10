@@ -4,12 +4,7 @@ export const myProjects = [
     title: "Arjuna CIMB Niaga",
     description:
       "ARJUNA is CIMB Niaga's cloud-based HR software designed to simplify every aspect of the employee journey. With the ARJUNA mobile application, you can easily manage HR tasks, guiding you through every stage of the employee lifecycle—from onboarding and managing HR essentials to performance management, providing feedback, giving recognition, and handling employee offboarding. All of this is available within one convenient platform. From tracking attendance, submitting leave requests, and overtime claims to accessing employee benefits and processing claims, ARJUNA streamlines HR transactions for all active CIMB Niaga employees.",
-    subDescription: [
-      "Developed and maintained a robust HR management dashboard using React.js, TypeScript, React Query, and TanStack Table, enabling efficient employee data and task management.",
-      "Implemented scheduler features for attendance tracking, shift planning, and event reminders, improving operational efficiency for HR teams.",
-      "Integrated Firebase Cloud Messaging (FCM) to deliver real-time notifications for reminders, approvals, and system alerts.",
-      "Managed complex asynchronous workflows using Redux-Saga, ensuring reliable state handling across modules.",
-    ],
+    subDescription: [],
     href: "https://arjuna.cimbniaga.co.id/auth/sign-in",
     logo: "",
     image: "/assets/projects/arjuna.png",
@@ -46,12 +41,7 @@ export const myProjects = [
     title: "OLX Mobbi",
     description:
       "OLX Mobbi is a digital platform that facilitates the buying and selling of used cars in Indonesia. The platform aims to provide a seamless, transparent, and trustworthy experience for both individual consumers and professional dealers. OLX Mobbi offers an end-to-end car transaction ecosystem that includes inspection, pricing, financing, insurance, and delivery services.",
-    subDescription: [
-      "Developed and maintained scalable web applications using TypeScript, React.js, Redux, and Bootstrap, focusing on modular and maintainable code.",
-      "Worked within a micro-frontend architecture using JFrog, enabling independent deployment and scaling of frontend modules.",
-      "Built Progressive Web Apps (PWA) features to enhance offline capability and mobile user experience.",
-      "Collaborated closely with Backend Engineers, SDETs, Scrum Masters, Product Teams, and DevOps to ensure smooth development, testing, and release cycles.",
-    ],
+    subDescription: [],
     href: "https://www.olx.co.id/",
     logo: "",
     image: "/assets/projects/olx-mobbi.png",
@@ -78,12 +68,7 @@ export const myProjects = [
     title: "Jobshub",
     description:
       "Jobshub is a job portal for domestic workers abroad. Jobshub helps you to understand yourself and empower your potential to get the right job.",
-    subDescription: [
-      "Working in an Agile environment, collaborating with cross-functional teams including backend, QA, and project managers to deliver high-quality web applications.",
-      "Built and maintained modern web applications using JavaScript, React.js, and Next.js, focusing on performance, scalability, and clean architecture.",
-      "Developed reusable and responsive UI components with Ant Design, adhering to design system standards.",
-      "Integrated Firebase Cloud Messaging (FCM) to enable real-time push notification functionality.",
-    ],
+    subDescription: [],
     href: "https://www.jobshub.id/",
     logo: "",
     image: "/assets/projects/jobshub.png",
@@ -115,11 +100,7 @@ export const myProjects = [
     title: "Trovant",
     description:
       "PT. Trovant Diagnostics Indonesia is a company engaged in the distribution of medical devices. We are here as a partner who is entrusted to be able to meet customer needs, especially in medical laboratories.",
-    subDescription: [
-      "Working in an Agile environment, collaborating with cross-functional teams including backend, QA, and project managers to deliver high-quality web applications.",
-      "Built and maintained modern web applications using JavaScript and React.js. Focusing on performance, scalability, and clean architecture.",
-      "Developed reusable and responsive UI components with Ant Design, adhering to design system standards.",
-    ],
+    subDescription: [],
     href: "https://www.trovant.co.id/",
     logo: "",
     image: "/assets/projects/trovant.png",
@@ -146,9 +127,7 @@ export const myProjects = [
     title: "Soundsfest",
     description:
       "Soundsfest is an annual music celebration that brings the Soundsfest Experience to various cities. It features a diverse range of musicians and activities for an unforgettable and fun-filled festival experience.",
-    subDescription: [
-      "Built and maintained modern web applications using Wordpress.",
-    ],
+    subDescription: [],
     href: "https://www.soundsfest.com/",
     logo: "",
     image: "/assets/projects/soundsfest.png",
@@ -161,13 +140,11 @@ export const myProjects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Globetech",
     description:
       "PT. GLOBETECH INSPEKSI TESTAMA is a leading Marine & Cargo inspection services company in Indonesia. We provide Quality – Quantity, Marine & Technical Inspection services across Indonesia for Coal, Fertilizer, Steel Billets, Agriculture Commodities, Oil & Chemicals and General Cargo with our local presence throughout all major and minor ports in Indonesia.",
-    subDescription: [
-      "Built and maintained modern web applications using Wordpress.",
-    ],
+    subDescription: [],
     href: "https://www.globetechid.com/",
     logo: "",
     image: "/assets/projects/globetech.png",
